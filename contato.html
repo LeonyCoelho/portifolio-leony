@@ -27,7 +27,7 @@
                   <a class="nav-link navLink" href="index.html">INÍCIO <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link navLink" href="portifolio.html">PORTIFOLIO</a>
+                    <a class="nav-link navLink" href="portifolio.html">PORTIFÓLIO</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link navLink" href="servicos.html">SERVIÇOS</a>
@@ -67,11 +67,15 @@
                             <div class="col-12">
                             <input type="text" name="company" class="form-control contactItem contactItemBG" placeholder="Empresa (OPCIONAL)">
                             </div>
-                            <div class="col-12">
-                            <input type="email" name="email" class="form-control contactItem contactItemBG" placeholder="Email" required>
+                            <div class="col-sm-12 col-md-6 col-lg-6 col-6-xl">
+                            <input type="phone" name="phone" class="form-control contactItem contactItemBG" placeholder="Telefone" required>
                             </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6 col-6-xl">
+                              <input type="email" name="email" class="form-control contactItem contactItemBG" placeholder="Email" required>
+                              </div>
                             <div class="col-12">
                             <select name="adress" class="form-control contactItem contactItemBG">
+                                <option>Selecione seu estado.</option>
                                 <option>Acre</option>
                                 <option>Alagoas</option>
                                 <option>Amapá</option>
@@ -102,7 +106,7 @@
                             </select>
                             </div>
                             <div class="col-12">
-                            <textarea name="message" placeholder="Mensagem" class="form-control contactItem contactItemBG" required></textarea>
+                            <textarea name="message" placeholder="Mensagem" class="form-control contactItem contactItemBG contactMessage" rows="7" required></textarea>
                             </div>
                             <div class="col-12">
                             <button type="submit" class="btn btn-light btn-lg  btnCustom contactItem">Enviar</button>

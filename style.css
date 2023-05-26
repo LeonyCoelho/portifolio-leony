@@ -288,6 +288,10 @@ a:hover{
     color: #ffffff;
 }
 
+.contactMessage{
+    resize: none;
+}
+
 /* footer ------------------------------------------------------------------------*/
 
 
