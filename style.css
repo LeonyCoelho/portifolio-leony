@@ -251,6 +251,46 @@ a:hover{
 }
 
 
+/* sobre -------------------------------------------------------------------------*/
+
+.aboutFull{
+    padding-top: 15rem;
+    color: #ffffff;
+}
+
+.aboutTitle{
+    margin-bottom:2rem;
+}
+
+.aboutPic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0rem;
+    margin-bottom: 10rem;
+    width: 300px;  
+}
+
+/* contato -----------------------------------------------------------------------*/
+
+.contatoBody{
+
+    padding-top: 3rem;
+
+}
+
+.contactItem{
+    margin-top: 2rem;
+}
+
+.contactItemBG{
+    background-color: #110559;
+    color: #ffffff;
+}
+
+/* footer ------------------------------------------------------------------------*/
+
+
 .customFooter{
     background: rgba(54,33,191,0.30);
     background: radial-gradient(
