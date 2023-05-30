@@ -48,6 +48,16 @@ a:hover{
     color:#ffffff
 }
 
+.navSpacer{
+    height: 25px;
+    width: 25px;
+}
+
+.navSpacer2{
+    height: 10px;
+    width: 0px;
+}
+
 .socialIcon{
     margin-right: 1rem;
 }
@@ -221,6 +231,7 @@ a:hover{
 .btnCustom{
     background-color: #110559;
     outline: 0px solid rgba(255, 255, 255, 0.288);
+    border-radius: 30px;
     color: #ffffff;
     margin-right: 1rem;
     margin-bottom: 1rem;
@@ -340,12 +351,14 @@ a:hover{
 
 .contactItem{
     margin-top: 2rem;
+    height: 50px;
 }
 
 .contactItemBG{
     background-color: #110559;
     color: #ffffff;
     border: 0px;
+    border-radius: 20px;
     -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.40);
     -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.40);
     box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.30);
